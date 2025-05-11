@@ -1,0 +1,20 @@
+{
+  "name": "ai-channel-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-bot1": "node bot1.js",
+    "start-bot2": "node bot2.js",
+    "start-both": "node bot1.js & node bot2.js",
+    "start": "node runthem.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/web-api": "^7.9.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0"
+  }
+}
